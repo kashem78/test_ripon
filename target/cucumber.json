@@ -1,0 +1,174 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 5,
+        "name": "Verify User can Login Successfully",
+        "description": "",
+        "id": "this-a-login-feature;verify-user-can-login-successfully",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 1187508000,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "Launch\u003c\"URL\"\u003eKal",
+            "match": {
+              "arguments": [
+                {
+                  "val": "URL",
+                  "offset": 8
+                }
+              ],
+              "location": "Kalikapur_Login.launch_Kal(String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 90402500,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "Click KalLogin",
+            "match": {
+              "location": "Kalikapur_Login.click_KalLogin()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 4240829600,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "Type username password click Login",
+            "match": {
+              "location": "Kalikapur_Login.type_username_password_click_Login()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 5396646000,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "Verify User can Login Successfully",
+            "match": {
+              "location": "Kalikapur_Login.verify_User_can_Login_Successfully()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 6279047700,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "Logout the site",
+            "match": {
+              "location": "Kalikapur_Login.logout_the_site()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 4,
+            "name": "@Ripon"
+          }
+        ]
+      }
+    ],
+    "name": "This a Login Feature",
+    "description": "",
+    "id": "this-a-login-feature",
+    "keyword": "Feature",
+    "uri": "Kalikapur_Login.feature"
+  },
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 7,
+        "name": "Verify Kaluser can Signup",
+        "description": "",
+        "id": "this-feature-is-to-create-new-account;verify-kaluser-can-signup",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 585592200,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "Launch\u003c\"URL\"\u003eKal",
+            "match": {
+              "arguments": [
+                {
+                  "val": "URL",
+                  "offset": 8
+                }
+              ],
+              "location": "Kalikapur_Login.launch_Kal(String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 55299400,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "Click on Signup Link",
+            "match": {
+              "location": "Kalsignup_StepDeffination.click_on_Signup_Link()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 4215735100,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "Enter Kaluser Name and Password and Click Signup",
+            "match": {
+              "location": "Kalsignup_StepDeffination.enter_Kaluser_Name_and_Password_and_Click_Signup()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 11134618100,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "Verify Kaluser can Signup",
+            "match": {
+              "location": "Kalsignup_StepDeffination.verify_Kaluser_can_Signup()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 6,
+            "name": "@Affan"
+          }
+        ]
+      }
+    ],
+    "name": "This Feature is to Create new Account",
+    "description": "",
+    "id": "this-feature-is-to-create-new-account",
+    "keyword": "Feature",
+    "uri": "Kalikapur_SignUp.feature"
+  }
+]
